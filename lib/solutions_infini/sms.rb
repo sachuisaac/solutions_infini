@@ -6,6 +6,7 @@ module SolutionsInfini
     BASE_URL = "http://alerts.solutionsinfini.com/api/v3/index.php"
 
     def self.send_sms(params_hash)
+      #usage: SolutionsInfini::Sms.send_sms({to: '9xxxxxxx', message: "welcome to mysite"})
       errors = []
       if valid?(params_hash, errors)
         #submit request to provider
