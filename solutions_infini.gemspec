@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'solutions_infini'
-  s.version     = '0.0.0'
+  s.version     = '0.1.1'
   s.date        = '2015-05-20'
   s.platform    = Gem::Platform::RUBY
   s.summary     = "Wrapper for Solutions Infini REST APIs"

@@ -5,5 +5,9 @@ module SolutionsInfini
     def configure
       yield self
     end
-  end  
+  end
+
+  class UnexpectedError < StandardError;  end
+  class ParamsError < StandardError;  end
+
 end
